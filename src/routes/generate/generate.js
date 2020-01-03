@@ -97,7 +97,7 @@ class Generate extends Component {
             let pinName = "pin" + pinIndex;
             if (index !== Constants.indexZero && index !== Constants.indexOne) {
               return (
-                <input key={pinIndex} id={pinName} type="number" value={Data || ""} readOnly />
+                <input key={pinIndex} id={pinName} type="number" value={Data || ""} readOnly disabled/>
               )
             } else {
               return null;

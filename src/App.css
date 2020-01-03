@@ -15,7 +15,6 @@ body {
 
 section {
   display: flex;
-  min-height: 100vh;
   padding-left: 65px;
 }
 

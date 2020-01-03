@@ -1,0 +1,31 @@
+.submit-button-enabled,
+.submit-button-disabled {
+    width: 100px;
+    padding: 4px;
+    border-radius: 5px;
+    margin: auto;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+
+.submit-button-enabled {
+    color: #fff;
+    border: 1px solid #3399c1;
+    background-color: #3399c1;
+    cursor: pointer;
+}
+
+.submit-button-disabled {
+    color: #707070;
+    border: 1px solid #707070;
+}
+
+#generateId {
+    background-color: green;
+    border: 1px solid green;
+}
+
+#deleteId {
+    background-color: red;
+    border: 1px solid red;
+}

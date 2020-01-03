@@ -1,0 +1,5 @@
+{
+    "pinAlreadyExists": "PIN name already exists.",
+    "noSavedPinFound": "No saved PINs found.",
+    "pinCombinationAlreadyExist": "PIN combination already present. Generate new PIN to save."
+}

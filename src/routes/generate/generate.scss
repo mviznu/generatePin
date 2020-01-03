@@ -1,0 +1,44 @@
+.page-generate {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+    height: 100vh;
+
+    .page-header {
+        width: 100%;
+        display: flex;
+        margin-top: 60px;
+
+        span {
+            width: 96%;
+        }
+    }
+
+    .field-area {
+        padding-top: 40px;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+
+        input {
+            width: 100px;
+            height: 60px;
+            text-align: center;
+        }
+    }
+
+    .display-box {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+
+        button {
+            margin: 0;
+            margin-top: 10px;
+        }
+    }
+}

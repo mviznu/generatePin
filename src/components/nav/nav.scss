@@ -1,0 +1,45 @@
+.navLinks {
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(234,231,220,1);
+        height: 100%;
+        width: 150px;
+        border-right: 1px solid #D1D1D1;
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            padding-top: 40px;
+
+            li {
+                padding: 10px 10px;
+                white-space: nowrap;
+                overflow: hidden;
+    
+                a {
+                    font-size: 20px;
+                    padding-left: 0px;
+    
+                    &:active {
+                        color: #3B8BEB;
+                    }
+                }
+            }
+
+            .generate {
+                a {
+                    color: #000;
+                }
+            }
+    
+            .saved {
+                a {
+                    color: #000;
+                }
+            }
+        }
+    }
+}

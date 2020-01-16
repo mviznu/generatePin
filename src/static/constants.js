@@ -1,7 +1,6 @@
 const Constants = {
     //header bar title
     headerBarTitle: "PIN Generator",
-
     //nav menu item display names
     generate: "Generate",
     saved: "Saved",
